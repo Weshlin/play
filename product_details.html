@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products-Quincy Collections</title>
+    <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@300;400;500;600;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+              <a href="index.html"><img src="images/logo-color.png" width="125px"></a>
+                
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart-removebg-preview.png" width="30px" height="30px"></a>
+           <img src="images/menu_icon-removebg-preview.png" class="menu-icon" onclick="menubar()">
+    </div>
+    </div>
+
+<!--single product details-->
+
+<div class="small-container single products"></div>
+    <div class="row">
+       <div class="col-2">
+        <img src="images/feature2.webp" width="100%">
+</div>
+<div class="col-2">
+  <p>Home / Dress</p>
+  <h1>Red sleeveless Dress</h1>
+  <h4>KSH 2599</h4>
+  <br>
+  <select>
+    <option>Select Size</option>
+    <option>Extra Large </option>
+    <option>Large</option>
+    <option>Medium</option>
+    <option>Small</option>
+  </select>
+  <br>
+  <input type="number" value="1">
+  
+      <a href="" class="btn">Add To Cart</a>
+      <br>
+      <br>
+      <h3>Product Details <i class="fas fa-indent"></i></h3>
+      <br>
+      <br>
+      <p>Ladies! Get to Dinner with a pair of offshoulder mini dress.</p>
+       </div>
+
+     </div> 
+    </div>
+
+
+ <div class="small-container">
+   
+    <div class="row">
+        <div class="col-4">
+          <img src="images/fearure1.webp">
+           <h4>Black sleeveless dress</h4>
+           <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+           </div>
+
+           <p>KSH 1500</p>
+        </div>
+        <div class="col-4">
+            <img src="images/elegant office dress.webp">
+             <h4>Elegant office dress</h4>
+             <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+  
+             <p>KSH 2399</p>
+          </div>
+          <div class="col-4">
+            <img src="images/black dress.jpeg">
+             <h4>Elegant Black Dress</h4>
+             <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+  
+             <p>KSH 4999</p>
+          </div>
+          <div class="col-4">
+            <img src="images/stardust-wrap-dress-in-red-ikojn-1_300x.webp">
+             <h4>Stardust wrap dress</h4>
+             <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             </div>
+  
+             <p>KSH 2500</p>
+          </div>
+    </div>
+
+     
+    </div>
+
+</div>
+
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Useful Links</h3>
+             <ui>
+                <li>coupons</li>
+                <li>Blog post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+             </ui>
+        </div>
+        <div class="footer-col-2"></div>
+            <h3>Follow us</h3>
+             <ui>
+                <li>Facebook</li>
+                <li>Twitter </li>
+                <li>Instagram</li>
+                <li>YouTube</li>
+             </ui>
+        </div>
+    </div>
+    <hr>
+    <p class="Copyright">Copyright 2023 - Quincy Collections</p>
+</div>
+<!--js for toggle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menubar() {
+      if(MenuItems.style.maxHeight == "0px") 
+      {
+        MenuItems.style.maxHeight = "200px"
+      } 
+      else
+      {
+        MenuItems.style.maxHeight = "0px"
+      }
+    }
+</script>
+
+</body>
+</html>
